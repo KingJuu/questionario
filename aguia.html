@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Águia</title>
+    <link rel="stylesheet" href="style_a.css">
+    <link rel="shortcut icon" href="Img/icon.png">
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+    </style>
+
+    <div id="perfil_g">
+        <h1>PERFIL ÁGUIA</h1>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+        <div id="porcentagem">  
+        </div>
+    </div>
+        <div class="main">       
+            <div class="intro">
+                <h2><br>INTRODUÇÃO</h2>
+            <p>A águia tem como característica principal “fazer diferente”. Pessoas com o perfil de águia são criativas e usam a sua 
+                intuição com frequência para antecipar o futuro, provocar mudanças radicais e inspirar ideias. Essas características 
+                fazem com que ela seja impaciente e rebelde, defendendo sempre o novo pelo novo sem se preocupar com o 
+                presente.
+                Se sente motivado pela ausência de controles rígidos e ambiente de trabalho descentralizado. É informal, flexível e 
+                prima pela liberdade de expressão e para fazer exceções. Está sempre aguardando uma oportunidade para delegar 
+                tarefas e detalhes.</p>
+            </div>
+            <div class="carac">
+                <div class="object">
+                    <div class="media-object__media"><img src="Img/gostar.png" width="100" height="100"></div>
+                    <!-- Main content -->
+                    <div class="media-object__content"><h2>PONTOS FORTES </h2> <p1>Provocar mudanças radicais, Antecipar o futuro</p1></div>
+                </div>
+                <div class="object">
+                    <div class="media-object__media"><img src="Img/nao-gosto-de-simbolo.png" width="100" height="100"></div>
+                    <!-- Main content -->
+                    <div class="media-object__content"><h2>PONTOS DE MELHORIA </h2> <p1>Falta de atenção para o presente, Impaciência e rebeldia</p1></div>
+                </div>
+                <div class="object">
+                    <div class="media-object__media"><img src="Img/valor.png" width="100" height="100"></div>
+                    <!-- Main content -->
+                    <div class="media-object__content"><h2>VALORES </h2> <p1>Criatividade e Liberdade</p1></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    
+    <div class="split-screen">
+        <!-- Left content -->
+        <div class="split-screen__half">
+            <h2><br>INTRODUÇÃO</h2>
+            <p>A águia tem como característica principal “fazer diferente”. Pessoas com o perfil de águia são criativas e usam a sua 
+                intuição com frequência para antecipar o futuro, provocar mudanças radicais e inspirar ideias. Essas características 
+                fazem com que ela seja impaciente e rebelde, defendendo sempre o novo pelo novo sem se preocupar com o 
+                presente.
+                Se sente motivado pela ausência de controles rígidos e ambiente de trabalho descentralizado. É informal, flexível e 
+                prima pela liberdade de expressão e para fazer exceções. Está sempre aguardando uma oportunidade para delegar 
+                tarefas e detalhes.</p>
+        <!-- Right content -->
+        <div class="media-object">
+            <div class="object">
+                <div class="media-object__media"><img src="Img/gostar.png" width="100" height="100"></div>
+                <!-- Main content -->
+                <div class="media-object__content"><h2>PONTOS FORTES </h2> <p1>Provocar mudanças radicais, Antecipar o futuro</p1></div>
+            </div>
+            <div class="object">
+                <div class="media-object__media"><img src="Img/nao-gosto-de-simbolo.png" width="100" height="100"></div>
+                <!-- Main content -->
+                <div class="media-object__content"><h2>PONTOS DE MELHORIA </h2> <p1>Falta de atenção para o presente, Impaciência e rebeldia</p1></div>
+            </div>
+            <div class="object">
+                <div class="media-object__media"><img src="Img/valor.png" width="100" height="100"></div>
+                <!-- Main content -->
+                <div class="media-object__content"><h2>VALORES </h2> <p1>Criatividade e Liberdade</p1></div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <div class="media-object">
+        <!-- Media object -->
+        
+    </div>
+
+
+</body>
+<script>
+    document.querySelector('#porcentagem').innerHTML += `
+    <h2>${localStorage.getItem('porcAguia')}</h2>
+    `
+
+
+</script>
+</html>
+
